@@ -31,8 +31,9 @@ li {
 a {
   text-decoration: none;
 }
+
 .temperature {
-  color: black;
+  color:black;
   font: weight 400px;
   line-height: 1;
 }
