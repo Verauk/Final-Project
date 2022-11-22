@@ -1,3 +1,13 @@
+body{
+    background-image: url(https://st3.depositphotos.com/1162190/18105/i/600/depositphotos_181058956-stock-photo-global-weather-forecast-background-day.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color:#f8f6f6;
+}
+
+
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: auto;
@@ -17,10 +27,10 @@ ul {
 }
 li {
   list-style: none;
-  color: rgba(59, 70, 65, 0.467);
-  font-size: 16px;
+  color:rgba(13,26,129);
+  font-size: 20px;
   text-transform: capitalize;
-  font-weight: 100;
+  font-weight: 150;
   line-height: 19px;
 }
 .icon {
@@ -33,12 +43,11 @@ a {
 }
 
 .temperature {
-  color: black;
+ 
   font: weight 400px;
   line-height: 1;
 }
 .units {
-  color: black;
   position: relative;
   font-size: 16px;
   font-weight: 600;
@@ -49,6 +58,7 @@ a {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  color: #f8f6f6;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
@@ -60,7 +70,7 @@ a {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color:#f8f6f6;;
 }
 .weather-temperature img {
   margin-right: 5px;
@@ -69,7 +79,7 @@ a {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color:#5c636e;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -77,12 +87,13 @@ a {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color:#f8f6f6;
   cursor: default;
-}
 
+}
 .weather-temperature .active:hover {
-  text-decoration: none;
+text-decoration: none;
+  color: #f8f6f6;
 }
 h2{
  position: fixed;
@@ -90,3 +101,4 @@ h2{
  top: 18%;
  font-size:50px;
 }
+
